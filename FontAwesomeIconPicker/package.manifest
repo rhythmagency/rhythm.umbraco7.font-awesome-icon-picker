@@ -1,0 +1,19 @@
+﻿{
+    propertyEditors: [
+        {
+                alias: "Rhythm.FontAwesomeIconPicker",
+                name: "Rhythm: Font Awesome Icon Picker",
+                editor: {
+                view: "~/App_Plugins/FontAwesomeIconPicker/fontawesomeiconpicker.html"
+                },
+                prevalues: {
+                        fields: [
+                               
+                        ]
+                }
+        }
+    ],
+    javascript: [
+        "~/App_Plugins/FontAwesomeIconPicker/fontawesomeiconpicker.controller.js"
+    ]
+}
