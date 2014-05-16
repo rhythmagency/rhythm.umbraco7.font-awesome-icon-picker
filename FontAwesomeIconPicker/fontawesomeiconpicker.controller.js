@@ -14,7 +14,9 @@
                             formatSelection: format,
                             formatResult: format,
                             escapeMarkup: function(m) { return m; },
-                            width: 'element'
+                            width: 'element',
+                            allowClear: true,
+                            placeholder: "None"
                         };
 
                     $('.font-awesome-icon-picker').select2(options);
