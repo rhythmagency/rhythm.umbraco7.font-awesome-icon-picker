@@ -19,7 +19,7 @@
                             placeholder: "None"
                         };
 
-                    $('.font-awesome-icon-picker').select2(options);
+                    $('select.font-awesome-icon-picker').select2(options);
                 });
 
             assetsService.loadCss(PLUGIN_PATH + '/vendor/select2/select2.css');
