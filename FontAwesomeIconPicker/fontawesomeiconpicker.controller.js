@@ -20,6 +20,7 @@
                         };
 
                     $('select.font-awesome-icon-picker').select2(options);
+                    $('select.font-awesome-icon-picker').select2("val", $scope.model.value);
                 });
 
             assetsService.loadCss(PLUGIN_PATH + '/vendor/select2/select2.css');
