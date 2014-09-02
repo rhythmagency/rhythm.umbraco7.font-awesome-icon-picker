@@ -13,7 +13,7 @@ angular.module('umbraco')
                 var PLUGIN_PATH = "/App_Plugins/FontAwesomeIconPicker";
 
                 assetsService.load([
-                        PLUGIN_PATH + '/vendor/select2/select2.min.js',
+                        PLUGIN_PATH + '/vendor/select2/select2.min.js?c=7',
                     ])
                     .then(function() {
                         var format = function(value) {
@@ -33,9 +33,9 @@ angular.module('umbraco')
                         }, 0);
                 });
 
-                assetsService.loadCss(PLUGIN_PATH + '/vendor/select2/select2.css');
-                assetsService.loadCss(PLUGIN_PATH + '/vendor/fontawesome/fontawesome.min.css');
-                assetsService.loadCss(PLUGIN_PATH + '/fontawesomeiconpicker.css');
+                assetsService.loadCss(PLUGIN_PATH + '/vendor/select2/select2.css?c=7');
+                assetsService.loadCss(PLUGIN_PATH + '/vendor/fontawesome/fontawesome.min.css?c=7');
+                assetsService.loadCss(PLUGIN_PATH + '/fontawesomeiconpicker.css?c=7');
         }
     };
 });
