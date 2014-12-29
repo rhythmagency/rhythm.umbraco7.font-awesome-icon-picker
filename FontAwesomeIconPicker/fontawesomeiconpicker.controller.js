@@ -34,7 +34,7 @@ angular.module('umbraco')
                 });
 
                 assetsService.loadCss(PLUGIN_PATH + '/vendor/select2/select2.css?c=7');
-                assetsService.loadCss(PLUGIN_PATH + '/vendor/fontawesome/fontawesome.min.css?c=7');
+                assetsService.loadCss(PLUGIN_PATH + '/vendor/fontawesome/css/font-awesome.min.css?c=1');
                 assetsService.loadCss(PLUGIN_PATH + '/fontawesomeiconpicker.css?c=7');
         }
     };
