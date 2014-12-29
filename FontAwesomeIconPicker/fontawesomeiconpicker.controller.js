@@ -23,7 +23,9 @@ angular.module('umbraco')
                                 formatSelection: format,
                                 formatResult: format,
                                 escapeMarkup: function(m) { return m; },
-                                width: 'element'
+                                width: 'element',
+                                allowClear: true,
+                                placeholder: "None"
                             };
 
                         //Ensure the custom select box loads after the first Angular digest
